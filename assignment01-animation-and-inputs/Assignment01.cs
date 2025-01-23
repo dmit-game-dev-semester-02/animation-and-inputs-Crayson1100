@@ -8,6 +8,10 @@ public class Assignment01 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+    private Texture2D _background, _prop;
+    private CelAnimationSequence _sequence01, _sequence02;
+    private CelAnimationPlayer _animation01, _animation02;
+    private int _backgroundHeight = 378, _backgroundWidth = 735;
 
     public Assignment01()
     {
@@ -18,16 +22,18 @@ public class Assignment01 : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
-
+        _graphics.PreferredBackBufferHeight = _backgroundHeight;
+        _graphics.PreferredBackBufferWidth = _backgroundWidth;
+        _graphics.ApplyChanges();
         base.Initialize();
     }
 
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
+        _background = Content.Load<Texture2D>("Forrest");
+        _sequence01 = new CelAnimationSequence();
 
-        // TODO: use this.Content to load your game content here
     }
 
     protected override void Update(GameTime gameTime)
@@ -35,7 +41,6 @@ public class Assignment01 : Game
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
-        // TODO: Add your update logic here
 
         base.Update(gameTime);
     }
@@ -43,8 +48,10 @@ public class Assignment01 : Game
     protected override void Draw(GameTime gameTime)
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
-
-        // TODO: Add your drawing code here
+        _spriteBatch.Begin();
+        _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
+        _spriteBatch.End();
+        
 
         base.Draw(gameTime);
     }

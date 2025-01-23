@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/ECA90/Desktop/Projects/animation-and-inputs-Crayson1100/assignment01-animation-and-inputs/Content/Forest Battle Background, Nauris Amatnieks.jpg</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>Forrest.jpg</File>
+  </DestFiles>
+</SourceFileCollection>
