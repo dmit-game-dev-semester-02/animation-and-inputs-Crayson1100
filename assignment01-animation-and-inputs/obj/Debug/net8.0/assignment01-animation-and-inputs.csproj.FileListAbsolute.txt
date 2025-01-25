@@ -25,3 +25,6 @@ C:\Users\ECA90\Desktop\Projects\animation-and-inputs-Crayson1100\assignment01-an
 C:\Users\ECA90\Desktop\Projects\animation-and-inputs-Crayson1100\assignment01-animation-and-inputs\obj\Debug\net8.0\assignment01-animation-and-inputs.genruntimeconfig.cache
 C:\Users\ECA90\Desktop\Projects\animation-and-inputs-Crayson1100\assignment01-animation-and-inputs\obj\Debug\net8.0\ref\assignment01-animation-and-inputs.dll
 C:\Users\ECA90\Desktop\Projects\animation-and-inputs-Crayson1100\assignment01-animation-and-inputs\bin\Debug\net8.0\Content\Forrest.xnb
+C:\Users\ECA90\Desktop\Projects\animation-and-inputs-Crayson1100\assignment01-animation-and-inputs\bin\Debug\net8.0\Content\SlimeSprite.xnb
+C:\Users\ECA90\Desktop\Projects\animation-and-inputs-Crayson1100\assignment01-animation-and-inputs\bin\Debug\net8.0\Content\ForrestBushes.xnb
+C:\Users\ECA90\Desktop\Projects\animation-and-inputs-Crayson1100\assignment01-animation-and-inputs\bin\Debug\net8.0\Content\Skeleton.xnb
