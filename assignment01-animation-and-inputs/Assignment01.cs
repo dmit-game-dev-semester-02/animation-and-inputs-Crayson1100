@@ -130,5 +130,5 @@ public class Assignment01 : Game
 
         base.Draw(gameTime);
     }
-    //public bool WithinBound(float x, float y)
+    
 }
