@@ -10,7 +10,7 @@ namespace assignment01_animation_and_inputs;
 public class CelAnimationPlayerMultiRow
 {
     private CelAnimationSequenceMultiRow CelAnimationSequenceMultiRow;
-    private int celIndexX, celIndexY;
+    private int celIndexX;
     private float celTimeElapsed;
     private Rectangle celSourceRectangle;
 

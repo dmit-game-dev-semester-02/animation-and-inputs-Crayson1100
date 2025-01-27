@@ -17,8 +17,7 @@ public class Assignment01 : Game
     private CelAnimationSequenceMultiRow _skeletonUp, _skeletonDown, _skeletonLeft, _skeletonRight;
     private CelAnimationPlayerMultiRow _skeletonPlayerUp, _skeletonPlayerDown, _skeletonPlayerLeft, _skeletonPlayerRight;
     private float _skeletonX, _skeletonY, _skeletonSpeed = 2;
-    private int _skeletonDirection = 2;
-    private int _backgroundHeight = 378, _backgroundWidth = 735;
+    private int _backgroundHeight = 378, _backgroundWidth = 735, _skeletonDirection = 2;
 
     public Assignment01()
     {
@@ -77,7 +76,6 @@ public class Assignment01 : Game
 
         _slimePlayer.Update(gameTime);
 
-        base.Update(gameTime);
         #region Skeleton Movement
         if (kbCurrentState.IsKeyDown(Keys.Down))
         {
@@ -106,6 +104,7 @@ public class Assignment01 : Game
         #endregion
 
         _kbStateOld = kbCurrentState;
+        base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)
